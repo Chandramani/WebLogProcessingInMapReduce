@@ -1,6 +1,6 @@
 
 
-package org.chombo.util;
+package util;
 
 import java.io.DataInput;
 import java.io.DataOutput;
