@@ -1,0 +1,11 @@
+Set of Hadoop based tools for web analytis. Currently includes the following
+
+- SessionExtractor map reduce which processes w3C compliant web log files and outputs
+	- sessionID
+	- userID
+	- session start time
+	- page visited
+	- time spent on each page visited
+
+
+
