@@ -1,4 +1,4 @@
-Set of Hadoop based tools for web analytis. Currently includes the following
+Set of Hadoop based tools for web analytis. 
 
 - SessionExtractor map reduce which processes w3C compliant web log files and outputs
 	- sessionID
@@ -7,5 +7,14 @@ Set of Hadoop based tools for web analytis. Currently includes the following
 	- page visited
 	- time spent on each page visited
 
+- SessionSummarizer map reduce which processes w3C compliant web log files and outputs
+  It provides imprtanr metrics like bounce rate, page depth, abandoned checkout
+	- sessionID
+	- userID
+	- num of pages visited
+	- total time spent in session
+	- last page visited in session
+	- flow status (e.g., whether checkout flow was entered, entered but not completed or completed)
+	
 
 

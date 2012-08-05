@@ -1,5 +1,5 @@
 
-package src;
+package src.main;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -22,10 +22,10 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.chombo.mr.NumericSorter;
-import org.chombo.util.TextLong;
-import util.Tuple;
-import org.chombo.util.Utility;
+import src.NumericSorter;
+import src.util.TextLong;
+import src.util.Tuple;
+import src.util.Utility;
 
 
 public class SessionExtractor extends Configured implements Tool {
